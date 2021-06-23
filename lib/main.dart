@@ -36,7 +36,7 @@ class MyAppState extends State<MyApp> {
     },
     {
       'questionText': 'Where do you live?',
-      'answers': ['Lalitpur', 'Kathmandu', 'Baglung', 'Pokhara'],
+      'answers': ['Bhaktapur', 'Kathmandu', 'Baglung', 'Pokhara'],
     },
   ];
 
@@ -54,9 +54,9 @@ class MyAppState extends State<MyApp> {
     });
     print(questionIndex);
     if (questionIndex < ques.length) {
-      print('we have more questions');
+      print('We have more questions');
     } else {
-      print('no more questions');
+      print('No more questions');
     }
   }
 
